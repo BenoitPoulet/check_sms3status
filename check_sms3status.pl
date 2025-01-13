@@ -122,7 +122,7 @@ F<status_file> the status file e.g. /dev/shm/sms_stat
 use Getopt::Long;
 use Pod::Usage;
 use lib '/usr/local/nagios/libexec/';
-use lib '/usr/lib/nagios/plugins/';
+use lib '/usr/lib64/nagios/plugins/';
 use utils qw(%ERRORS);
 
 sub nagexit($$);
